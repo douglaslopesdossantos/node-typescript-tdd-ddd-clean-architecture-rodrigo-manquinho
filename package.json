@@ -6,7 +6,7 @@
     "prepare": "husky",
     "test": "jest",
     "test:watch": "jest --watch",
-    "test:staged": "jest",
+    "test:staged": "jest --passWithNoTests",
     "lint-staged": {
       "*.{ts,tsx,js}": [
         "eslint --fix"
